@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read -p "what is your name?: " name 
+
+if [ $name == "Marlen" ]; then
+	echo "hello there $name"
+else
+       echo "Is it not true!"	
+fi
+
